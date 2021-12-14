@@ -22,7 +22,6 @@ describe('read flat geo css', function() {
         const style = read(STYLE);
         expect(style.rules.length).toBe(1);
         expect(style.rules[0].selector).toBe('*');
-        expect(style).toBe();
     });
     it('should read min scale selector', function() {
         const STYLE = `
